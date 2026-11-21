@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #0c0c0d;
+  color: #f7f4ec;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a { color: inherit; text-decoration: none; }
+.shell { width: min(1100px, calc(100% - 32px)); margin: 0 auto; }
+.gold { color: #d9b45b; }
+.panel { background: #171719; border: 1px solid #35312a; border-radius: 18px; }
+.button {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 12px 18px; border-radius: 10px; border: 1px solid #d9b45b;
+  background: #d9b45b; color: #17130a; font-weight: 700; cursor: pointer;
+}
+.field {
+  width: 100%; padding: 12px; border-radius: 10px; color: white;
+  background: #101012; border: 1px solid #4a4438;
+}
